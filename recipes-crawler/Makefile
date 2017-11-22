@@ -11,5 +11,5 @@ brand:
 ensure-dependencies:
 	@npm run docker
 
-buid:
+package:
 	@docker build --tag $(SERVICE):$(TRAVIS_BUILD_NUMBER) .

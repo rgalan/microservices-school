@@ -26,9 +26,9 @@ before_script:
   - sleep 10
 
 script:
-  - make qa
   - make brand
   - make package
+  - make qa
 
 matrix:
   include:
